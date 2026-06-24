@@ -16,16 +16,7 @@ public class Participante {
     public Participante() {
     }
 
-    public Participante(int id,
-                        String cedula,
-                        String nombre,
-                        String apellido,
-                        int edad,
-                        String correo,
-                        String estadoCivil,
-                        String jornada,
-                        String categoria,
-                        String observaciones) {
+    public Participante(int id, String cedula, String nombre, String apellido, int edad, String correo, String estadoCivil, String jornada, String categoria, String observaciones) {
 
         this.id = id;
         this.cedula = cedula;
@@ -47,7 +38,6 @@ public class Participante {
         this.id = id;
     }
 
-
     public String getCedula() {
         return cedula;
     }
@@ -55,7 +45,6 @@ public class Participante {
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
-
 
     public String getNombre() {
         return nombre;
@@ -65,7 +54,6 @@ public class Participante {
         this.nombre = nombre;
     }
 
-
     public String getApellido() {
         return apellido;
     }
@@ -73,7 +61,6 @@ public class Participante {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-
 
     public int getEdad() {
         return edad;
@@ -83,7 +70,6 @@ public class Participante {
         this.edad = edad;
     }
 
-
     public String getCorreo() {
         return correo;
     }
@@ -91,7 +77,6 @@ public class Participante {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
-
 
     public String getEstadoCivil() {
         return estadoCivil;
@@ -101,7 +86,6 @@ public class Participante {
         this.estadoCivil = estadoCivil;
     }
 
-
     public String getJornada() {
         return jornada;
     }
@@ -110,7 +94,6 @@ public class Participante {
         this.jornada = jornada;
     }
 
-
     public String getCategoria() {
         return categoria;
     }
@@ -118,7 +101,6 @@ public class Participante {
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
-
 
     public String getObservaciones() {
         return observaciones;
